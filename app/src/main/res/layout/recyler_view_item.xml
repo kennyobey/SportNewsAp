@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:layout_margin="10dp"
+>
+
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="200dp"
+                       android:id="@+id/news_img"
+                       android:scaleType="centerCrop"
+            />
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/news_title"
+                      android:textStyle="bold"
+                      android:textSize="20sp"
+                      android:text="Headlines"
+                      android:layout_marginBottom="5dp"
+            />
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/news_desc"
+              android:textSize="15sp"
+              android:layout_marginBottom="5dp"
+              android:text="News description ..."
+    />
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_gravity="center"
+                  android:layout_margin="5dp"
+    >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/news_source"
+                  android:textStyle="bold"
+                  android:textSize="15sp"
+                  android:text="BBC News"
+                  android:layout_marginRight="5dp"
+        />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/news_date"
+                  android:textSize="10sp"
+                  android:layout_marginBottom="5dp"
+                  android:text="21-03-2019"
+
+        />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
